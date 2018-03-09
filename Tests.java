@@ -76,7 +76,7 @@ public class Tests {
 		
 	}
 	// ------------------------------------------------------------------------
-	// runget() is the function that gets timed by runTests() to test the speed
+	// runGet() is a function that gets timed by runTests() to test the speed
 	// of the get functionality
 	// ------------------------------------------------------------------------
 	// @param: List<Integer> - the list that the tests are working with 
@@ -93,10 +93,10 @@ public class Tests {
 	}
 	
 	
-		// ------------------------------------------------------------------------
-		// 
-		// 
-		// ------------------------------------------------------------------------
+		// -------------------------------------------------------------------------
+		//  runAdd() is a function that gets timed by runTests() to test the speed
+		//  of the add functionality
+		// -------------------------------------------------------------------------
 		// @param: List<Integer> - the list that the tests are working with 
 		// 		   int size - the amount of times the lookup is run
 		//
@@ -115,10 +115,10 @@ public class Tests {
 		}
 	}
 
-		// ------------------------------------------------------------------------
-		// 
-		// 
-		// ------------------------------------------------------------------------
+		// -------------------------------------------------------------------------
+		// runRemove() is a function that gets timed by runTests() to test the speed
+		// of the remove functionality
+		// -------------------------------------------------------------------------
 		// @param: List<Integer> - the list that the tests are working with 
 		// 		   int size - the amount of times the lookup is run
 		//
@@ -133,11 +133,10 @@ public class Tests {
 	}
 	
 		// ------------------------------------------------------------------------
-		// 
-		// 
+		// getList() returns either an ArrayList or a LinkedList depending on the 
+		// input
 		// ------------------------------------------------------------------------
-		// @param: List<Integer> - the list that the tests are working with 
-		// 		   int size - the amount of times the lookup is run
+		// @param: int listType - 1=arraylist 0=linkedlist 
 		//
 		// ------------------------------------------------------------------------
 	public static List<Integer> getList(int listType) {
